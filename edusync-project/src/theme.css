@@ -1,0 +1,14 @@
+:root {
+  --main-bg-color: #ffffff;
+  --main-text-color: #000000;
+}
+
+[data-bs-theme="dark"] {
+  --main-bg-color: #121212;
+  --main-text-color: #f1f1f1;
+}
+
+body {
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+}
